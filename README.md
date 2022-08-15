@@ -4,8 +4,8 @@
 to the GitHub page of my Master Thesis Project.
 This page will provide links to the Thesis report, the software *HERO* - for which the model will be implemented in the free version, as well as a link to download the trained model as a frozen graph (from TensorFlow), ready to use in Python.
 
-The Thesis aimed to create an automatic solution for segmentation of the prostate and its internal anatomical zones from MR images, as this can be a very time-consuming task.
-The result is this model with an aritechture of a 3D Convolutional Neural Network.
+The Thesis aimed to create an automatic solution for segmentation of the prostate and its internal anatomical zones from MR images, as this can be a very time-consuming task if performed manually.
+The result is this 3D-CNN model.
 
 ---
 
@@ -17,7 +17,7 @@ https://www.diva-portal.org/smash/record.jsf?dswid=-4000&pid=diva2%3A1654535&c=2
 
 Later this fall, the model will be available in the free version of HERO (www.heroimaging.com) - a graphical programming platform that enables complex image analysis, in an easy and interactive way.
 
-This will be the easiest and most straight-forward way of using the model - although some patience is needed.
+This will be the easiest and most straight-forward way of using the model - although some patience is still needed.
 
 ---
 
