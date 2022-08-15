@@ -2,13 +2,15 @@
 
 **Welcome**,
 to the GitHub page of my Master Thesis Project.
-This page will provide links to the Thesis report, the software *HERO* - for which the model will be implemented in the free version, as well as a link to download the trained model as a frozen graph (from TensorFlow), ready to use in Python.
+This page will provide links to the Thesis report, the software *HERO* - for which the model will be implemented in the free version, as well as a link to download the trained model as a frozen graph (TensorFlow), ready to use in Python.
 
-The Thesis aimed to create an automatic solution for segmentation of the prostate and its internal anatomical zones from MR images, as this can be a very time-consuming task if performed manually.
+The Thesis aimed to create an automatic solution for segmentation of the prostate and its internal anatomical zones from T2 MR images, as this can be a very time-consuming task if performed manually.
 The result is this 3D-CNN model.
 
 
---
+---
+
+## HERO
 
 Later this fall, the model will be available in the free version of *HERO* (www.heroimaging.com) - a graphical programming platform that enables complex image analysis, in an easy and interactive way.
 
@@ -23,15 +25,14 @@ https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70230177
 
 *One important note is that this is the dataset that has been used as a basis for the training of the model, and thus any results on this dataset will be "exaggerated" - although it still works as a way to try out the model.*
 
---
+### Frozen graph - Python
 
 The trained model is also available as a frozen graph (from TensorFlow), which can be used directly in Python.
 
-...
-Something about the preprocessing and postprocessing!!
-...
+This setup lacks the preprocessing and postprocessing included in the *HERO* workflow, and thus the output will be six individual images representing each individual zone (PZ, CZ, TZ, Urethra, AFS, and Background).
+If you are interested in the Python code for the pre- and postprocessing to try it out before the model is avaliable in *HERO*, you can reach out at: william.holmlund@umu.se.
 
-Model available at:
+The frozen graph model is available at:
 
 https://nonpi.s3.eu-north-1.amazonaws.com/mtk/resources/model-zoo/0005.pb
 
