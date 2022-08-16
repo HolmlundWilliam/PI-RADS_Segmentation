@@ -12,9 +12,9 @@ The result is this 3D-CNN model.
 
 ## HERO
 
-Later this fall, the model will be available in the free version of *HERO* (www.heroimaging.com) - a graphical programming platform that enables complex image analysis, in an easy and interactive way.
+In the autumn of 2022, the model will be available in the free version of *HERO* (www.heroimaging.com) - a graphical programming platform that enables complex image analysis, in an easy and interactive way.
 
-This will be the easiest and most straight-forward way of using the model - although some patience is still needed.
+This will be the easiest and most straight-forward way of using the model.
 
 
 The model takes a T2 MRI prostate (DICOM) image as input and returns a segmented multilabel (DICOM) image with the anatomical zones as output - which can also easily be separated into individual RTSTRUCTs.
@@ -23,7 +23,7 @@ To try the model on a larger dataset (n=98), one can use the PROSTATEx dataset f
 
 https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70230177
 
-*One important note is that this is the dataset that has been used as a basis for the training of the model, and thus any results on this dataset will be "exaggerated" - although it still works as a way to try out the model.*
+*This is the training dataset, but the segmentations have been modified in the trainig of the model according to the description in the Thesis.*
 
 ### Frozen graph - Python
 
